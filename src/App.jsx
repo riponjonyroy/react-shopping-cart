@@ -1,0 +1,1 @@
+import {CartProvider} from "./context/CartContext";import Navbar from "./components/Navbar";import ProductGrid from "./components/ProductGrid";import Cart from "./components/Cart";export default function(){return <CartProvider><Navbar/><div className="layout"><ProductGrid/><Cart/></div></CartProvider>;}

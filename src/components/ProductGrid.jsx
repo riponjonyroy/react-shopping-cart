@@ -1,0 +1,1 @@
+import products from "../data/products";import ProductCard from "./ProductCard";export default ()=> <div className="grid">{products.map(p=><ProductCard key={p.id} p={p}/>)}</div>;

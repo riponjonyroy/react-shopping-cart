@@ -1,0 +1,1 @@
+import {useCart} from "../context/CartContext";export default function({p}){const{addToCart}=useCart();return <div className="card"><img src={p.image}/><h3>{p.title}</h3><p>{p.category}</p><strong>${p.price}</strong><button onClick={()=>addToCart(p)}>Add To Cart</button></div>}

@@ -1,0 +1,1 @@
+import {useCart} from "../context/CartContext";export default function(){const{totalItems}=useCart();return <nav className="nav"><h2>ShopCart</h2><div>Cart ({totalItems})</div></nav>}
